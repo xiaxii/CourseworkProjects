@@ -1,9 +1,19 @@
-
 import javax.swing.*;
 import java.awt.*;
-import java.util.Arrays;
 
-
+/**
+ * GUI of the Bank System <br>
+ *     Contains the home page and 6 function page: <br>
+ *     - Open Account <br>
+ *     - Deposit Funds <br>
+ *     - Clear Funds <br>
+ *     - Withdraw Funds <br>
+ *     - Suspend Account <br>
+ *     - Close Account
+ *
+ * @author Xi Xia
+ * @version 1.1
+ */
 public class GUI_BankSystem {
     public final static JFrame BankSystemFrame = new JFrame("A Simple Bank System");
 
@@ -104,7 +114,10 @@ public class GUI_BankSystem {
     }
 
     /**
-     * Function1. Open Account
+     * Function1 page. Open Account
+     * @see Account_Saver#openSaverAccount(java.lang.String)
+     * @see Account_Junior#openJuniorAccount(java.lang.String)
+     * @see Account_Current#openCurrentAccount(java.lang.String)
      */
     public void GUI_OpenAccount() {
 
@@ -212,7 +225,7 @@ public class GUI_BankSystem {
                         newJuniorAcc.writeAcc();
                         successOperation();
                     } else {
-                        invalidInput(); //age is larger that 16
+                        invalid(); //age is larger that 16
                     }
                     break;
                 case "Current":
@@ -227,12 +240,12 @@ public class GUI_BankSystem {
                     successOperation();
                     break;
                 default:
-                    invalidInput(); // not an appropriate type
+                    invalid(); // not an appropriate type
                     break;
 
                 }
             } else {
-                invalidInput(); // Customer is not registered
+                invalid(); // Customer is not registered
             }
             nameTextField.setText("");
             addressTextField.setText("");
@@ -253,7 +266,9 @@ public class GUI_BankSystem {
     }
 
     /**
-     * Function2. Deposit Funds
+     * Function2 page. Deposit Funds
+     * @see Account#isAccActive(String)
+     * @see Account#depositFunds(java.lang.String, double, java.lang.String)
      */
     public void GUI_DepositFunds() {
         JFrame DepositFundsFrame = new JFrame("Deposit Funds");
@@ -334,9 +349,9 @@ public class GUI_BankSystem {
         deposit.addActionListener(e -> {
             if (accIDTextField.getText().equals("") || amountTextField.getText().equals("") ||
                     clearModeCombo.getItemAt(clearModeCombo.getSelectedIndex()).equals("")) {
-                invalidInput(); // empty input
+                invalid(); // empty input
             } else {
-                int accID = Integer.valueOf(accIDTextField.getText());
+                String accID = accIDTextField.getText();
                 int amount = Integer.valueOf(amountTextField.getText());
                 String clearMode = clearModeCombo.getItemAt(clearModeCombo.getSelectedIndex());
                 System.out.println("get deposit command: " + accID + ", " + clearMode + ", " + amount);
@@ -346,7 +361,7 @@ public class GUI_BankSystem {
                 if (modifyAcc.isAccActive(accID)) {
                     successFlag = modifyAcc.depositFunds(accID, amount, clearMode);
                     if (!successFlag) {
-                        invalidInput();
+                        invalid();
                     } else {
                         successOperation();
                     }
@@ -354,7 +369,7 @@ public class GUI_BankSystem {
                     accIDTextField.setText("");
                     accIDTextField.setText("");
                 } else {
-                    invalidInput(); // no active account with provided accID
+                    invalid(); // no active account with provided accID
                 }
             }
         });
@@ -371,7 +386,9 @@ public class GUI_BankSystem {
     }
 
     /**
-     * Function3. Clear Funds
+     * Function3 page. Clear Funds
+     * @see Account#accIDnPINVerify(java.lang.String, java.lang.String)
+     * @see Account#clearFunds(java.lang.String)
      */
     public void GUI_ClearFunds() {
         JFrame ClearFundsFrame = new JFrame("Clear Funds");
@@ -437,7 +454,7 @@ public class GUI_BankSystem {
             String providedAccID = accIDField.getText();
             String providedPIN = new String(PINField.getPassword());
             if (providedAccID.equals("") || providedPIN.equals("")) {
-                invalidInput(); // empty input
+                invalid(); // empty input
             } else {
                 boolean isVerified = false;
                 boolean isCleared = false;
@@ -449,7 +466,7 @@ public class GUI_BankSystem {
                         successOperation(); // Funds are cleared
                     }
                 } else {
-                    invalidInput(); //not verified
+                    invalid(); //not verified
                 }
             }
             accIDField.setText("");
@@ -468,7 +485,14 @@ public class GUI_BankSystem {
     }
 
     /**
-     * Function4. Withdraw Funds
+     * Function4 page. Withdraw Funds <br>
+     * 2 sub-functions: <br>
+     * - notice <br>
+     * - withdraw
+     * @see Account#accIDnPINVerify(java.lang.String, java.lang.String)
+     * @see Account#isAccActive(String)
+     * @see Account#notice(java.lang.String)
+     * @see Account#withdrawFunds(java.lang.String, double)
      */
     public void GUI_WithdrawFunds() {
 
@@ -546,43 +570,45 @@ public class GUI_BankSystem {
             String accID = accIDTextField.getText();
             String PIN = new String(PINField.getPassword());
             Account noticeAcc = new Account();
+            boolean isActive = noticeAcc.isAccActive(accID);
             boolean isVerified = noticeAcc.accIDnPINVerify(accID, PIN);
-            if (isVerified) {
+            if (isActive && isVerified) {
                 boolean isNoticed = noticeAcc.notice(accID);
                 if (isNoticed) {
                     successOperation(); // verified and noticed
                 } else {
-                    invalidInput(); // not noticed
+                    invalid(); // not noticed
                 }
             }
             else {
-                invalidInput(); // not pass verification
+                invalid(); // not pass verification
             }
             accIDTextField.setText("");
             amountTextField.setText("");
-            Arrays.fill(PINField.getPassword(), ' ');
+            PINField.setText("");
         });
 
         withdraw.addActionListener(e -> {
             String accID = accIDTextField.getText();
             String PIN = new String(PINField.getPassword());
             Account withdrawAcc = new Account();
+            boolean isActive = withdrawAcc.isAccActive(accID);
             boolean isVerified = withdrawAcc.accIDnPINVerify(accID, PIN);
-            if(isVerified){
+            if (isActive && isVerified) {
                 boolean isWithdrawn = false;
                 double withdrawAmount = Double.valueOf(amountTextField.getText());
                 isWithdrawn = withdrawAcc.withdrawFunds(accID,withdrawAmount);
                 if(isWithdrawn){
                     successOperation(); // verified and withdrawn
                 }else {
-                    invalidInput(); // not withdrawn
+                    invalid(); // not withdrawn
                 }
             }else {
-                invalidInput(); // not pass verification
+                invalid(); // not pass verification
             }
             accIDTextField.setText("");
             amountTextField.setText("");
-            Arrays.fill(PINField.getPassword(), ' ');
+            PINField.setText("");
         });
 
         /**
@@ -598,7 +624,9 @@ public class GUI_BankSystem {
 
 
     /**
-     * Function5. Suspend Account
+     * Function5 page. Suspend Account
+     * @see Account#accIDnPINVerify(java.lang.String, java.lang.String)
+     * @see Account#suspendAccount(java.lang.String)
      */
     public void GUI_SuspendAccount() {
         JFrame SuspendAccountFrame = new JFrame("Suspend Account");
@@ -664,7 +692,7 @@ public class GUI_BankSystem {
             String providedAccID = accIDField.getText();
             String providedPIN = new String(PINField.getPassword());
             if (providedAccID.equals("") || providedPIN.equals("")) {
-                invalidInput(); // empty input
+                invalid(); // empty input
             } else {
                 boolean isVerified = false;
                 boolean isSuspendeded = false;
@@ -676,7 +704,7 @@ public class GUI_BankSystem {
                         successOperation(); // Funds are cleared
                     }
                 } else {
-                    invalidInput(); //not verified
+                    invalid(); //not verified
                 }
             }
             accIDField.setText("");
@@ -695,7 +723,9 @@ public class GUI_BankSystem {
     }
 
     /**
-     * Function6. Close Account
+     * Function6 page. Close Account
+     * @see Account#accIDnPINVerify(java.lang.String, java.lang.String)
+     * @see Account#closeAccount(java.lang.String)
      */
     public void GUI_CloseAccount() {
         JFrame CloseAccountFrame = new JFrame("Close Account");
@@ -761,7 +791,7 @@ public class GUI_BankSystem {
             String providedAccID = accIDField.getText();
             String providedPIN = new String(PINField.getPassword());
             if (providedAccID.equals("") || providedPIN.equals("")) {
-                invalidInput(); // empty input
+                invalid(); // empty input
             } else {
                 boolean isVerified = false;
                 boolean isClosed = false;
@@ -773,7 +803,7 @@ public class GUI_BankSystem {
                         successOperation(); // Funds are cleared
                     }
                 } else {
-                    invalidInput(); //not verified
+                    invalid(); //not verified
                 }
             }
             accIDField.setText("");
@@ -793,29 +823,28 @@ public class GUI_BankSystem {
 
 
     /**
-     * Reaction to all kinds of successful operation
+     * Reaction to all kinds of successful operations
      */
     public void successOperation() {
         JOptionPane.showMessageDialog(null, "Success!");
     }
 
     /**
-     * Reaction to all kinds of invalid input
+     * Reaction to all kinds of invalid inputs or operations
      */
-    public void invalidInput() {
-        JOptionPane.showMessageDialog(null, "Invalid Input!");
+    public void invalid() {
+        JOptionPane.showMessageDialog(null, "Invalid!");
     }
 
     /**
      * Main method: launch the application<br>
      * - Give a welcome message using a Dialog window<br>
      * - New a BankSystem class<br>
-     * - Show MathTeacher GUI_BankSystem after pressing the confirmation button in the dialog window<br>
-     *
+     * - Show GUI_BankSystem after pressing the confirmation button in the dialog window<br>
      * @param args null
      */
     public static void main(String[] args) {
-//        JOptionPane.showMessageDialog(null, "Welcome to your Bank System!");
+        JOptionPane.showMessageDialog(null, "Welcome to your Bank System!");
         GUI_BankSystem BankSystem = new GUI_BankSystem();
     }
 }

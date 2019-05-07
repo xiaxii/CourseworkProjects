@@ -1,9 +1,18 @@
+/**
+ * Account_Junior extends Account
+ * @see Account
+ *
+ * @author Xi Xia
+ * @version 1.1
+ */
 public class Account_Junior extends Account {
 
     /**
-     * open a junior account
-     * @param birth
-     * @return
+     * Open a junior account
+     * @param birth use the birthday as default PIN
+     * @return accID
+     * @see Account#writeAccFinder(java.lang.String, java.lang.String, java.lang.String, int)
+     * @see Account#writeAcc()
      */
 
     public int openJuniorAccount(String birth){

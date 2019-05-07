@@ -1,9 +1,18 @@
+/**
+ * Account_Current extends Account
+ * @see Account
+ *
+ * @author Xi Xia
+ * @version 1.1
+ */
 public class Account_Current extends Account {
 
     /**
-     * open a current account
-     * @param birth
-     * @return
+     * Open a current account
+     * @param birth use the birthday as default PIN
+     * @return accID
+     * @see Account#writeAccFinder(java.lang.String, java.lang.String, java.lang.String, int)
+     * @see Account#writeAcc()
      */
     public int openCurrentAccount(String birth){
         /**
