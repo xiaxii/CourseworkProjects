@@ -1,7 +1,25 @@
-How to install this project:
+First Name:                           Xi
+Last Name:                           Xia
+QM Student ID:                 161187914
+BUPT student ID:              2016213482
+BUPT class number:            2016215117
 
 
-Three text File in src/File directory:
+To start this Bank System:
+
+ (change the src directory path according to your environment!!!)
+ 1. Please check the srcDirectoryPath in your java file (Account.java and Customer.java)
+ 2. Enter instructions in your Terminal as following:
+      cd /Users/xiaxi/Documents/GitHub/CourseworkProjects/BankSystem/src 
+      javac GUI_BankSystem.java
+      java GUI_BankSystem
+    Then you will get a Welcome Dialog, Press "OK" to see the Home Page of the Bank System.
+
+ More Details: see UserManual.pdf
+
+
+
+Three text File in src directory:
 
  1. CreditAgency.txt
  record the registered customer's information:
@@ -28,45 +46,5 @@ Three text File in src/File directory:
   AccountStatus status: default status is "SUSPENDED", other status are "ACTIVE", "CLOSED"
   boolean noticed: true for noticed before withdrawal, false for not noticed
 
+The text file "NewAccID.txt" provide new unique account ID for each newly opened account
 
-Project Structure:
-
- 1. Account
- Basic information of an account:
-  - accID
-  - type
-  - PIN
-  - balance
-  - overdraftLimit
-  - clearing
-  - accountStatus
-  - noticed
- Details of all accounts are in file "BankSystem/src/File/Accounts.txt"
-
- 2. Account_Current
-  Account_Current extends Account
-  
- 3. Account_Junior
-  Account_Junior extends Account
-
- 4. Account_Saver
-  Account_Saver extends Account
-
- 5. Customer
- Customer Class
-  Basic information of a Customer:
-  - name
-  - address
-  - birthday
-  - status of credit history
- Details of customers are in the file "BankSystem/src/File/CreditAgency.txt"
-
- 6. GUI_BankSystem
- GUI of the Bank System
-  Contains the home page and 6 function page:
-  - Open Account
-  - Deposit Funds
-  - Clear Funds
-  - Withdraw Funds
-  - Suspend Account
-  - Close Account

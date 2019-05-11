@@ -14,11 +14,18 @@ import java.util.Date;
  *     - address <br>
  *     - birthday <br>
  *     - status of credit history <br>
- * Details of customers are in the file "BankSystem/src/File/CreditAgency.txt"
+ * Details of customers are in the file "BankSystem/src/CreditAgency.txt"
  * @author Xi Xia
  * @version 1.1
  */
 public class Customer {
+
+
+    /**
+     * The sourceCode Directory Path
+     */
+    String srcDirectoryPath = "/Users/xiaxi/Documents/GitHub/CourseworkProjects/BankSystem/src/";
+
 
     protected String name;
     protected String address;
@@ -53,7 +60,7 @@ public class Customer {
      */
     public boolean isCreditSatisfactory() {
         try {
-            String filePathName = "src/File/CreditAgency.txt";
+            String filePathName = srcDirectoryPath+"CreditAgency.txt";
             File filename = new File(filePathName); // 要读取以上路径的文件
             if (!filename.exists()) {
                 System.out.println("can't find " + filePathName);

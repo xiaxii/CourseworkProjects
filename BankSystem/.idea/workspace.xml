@@ -2,22 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12164077-d2b4-4bbd-a847-28ebfa12b90b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/Account.AccountStatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Account.AccountStatus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/Account.Type.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Account.Type.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/Account.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/Account_Current.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Account_Current.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/Account_Junior.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Account_Junior.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/Account_Saver.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Account_Saver.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/Customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/GUI_BankSystem.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/GUI_BankSystem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/allclasses.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/allclasses.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/class-use/Account.AccountStatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/class-use/Account.AccountStatus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/class-use/Account.Type.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/class-use/Account.Type.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/class-use/Account.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/class-use/Account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/class-use/Account_Current.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/class-use/Account_Current.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/class-use/Account_Junior.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/class-use/Account_Junior.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/class-use/Account_Saver.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/class-use/Account_Saver.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/class-use/Customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/class-use/Customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/class-use/GUI_BankSystem.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/class-use/GUI_BankSystem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-14.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-15.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/member-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/member-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/member-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/package-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/package-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/type-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/type-search-index.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User Manual.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User Manual/Backup of User Manual.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User Manual.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BankSystem/Account$AccountStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BankSystem/Account$AccountStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BankSystem/Account$Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BankSystem/Account$Type.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BankSystem/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BankSystem/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BankSystem/File/AccountFinder.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BankSystem/File/AccountFinder.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BankSystem/File/Accounts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BankSystem/File/Accounts.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BankSystem/File/NewAccID.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BankSystem/File/NewAccID.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BankSystem/Account_Current.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BankSystem/Account_Current.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BankSystem/Account_Junior.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BankSystem/Account_Junior.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BankSystem/Account_Saver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BankSystem/Account_Saver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BankSystem/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BankSystem/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BankSystem/File/AccountFinder.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BankSystem/File/Accounts.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BankSystem/File/CreditAgency.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BankSystem/File/NewAccID.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BankSystem/GUI_BankSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BankSystem/GUI_BankSystem.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account_Current.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account_Current.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account_Junior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account_Junior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account_Saver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account_Saver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/File/Accounts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/File/Accounts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/File/AccountFinder.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AccountFinder.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/File/Accounts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Accounts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/File/CreditAgency.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreditAgency.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/File/NewAccID.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewAccID.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI_BankSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI_BankSystem.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -46,20 +97,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Customer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="63" column="16" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#isAgeUnder16#0;class#Customer#0" />
+                <element signature="method#getAge#0;class#Customer#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GUI_BankSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="272" column="35" selection-start-line="272" selection-start-column="35" selection-end-line="272" selection-end-column="35" />
+            <state relative-caret-position="293">
+              <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#GUI_BankSystem#0;class#GUI_BankSystem#0" />
+                <element signature="docComment;class#GUI_BankSystem#0" />
                 <element signature="method#GUI_OpenAccount#0;class#GUI_BankSystem#0" />
                 <element signature="method#GUI_DepositFunds#0;class#GUI_BankSystem#0" />
                 <element signature="method#GUI_ClearFunds#0;class#GUI_BankSystem#0" />
-                <element signature="method#GUI_WithdrawFunds#0;class#GUI_BankSystem#0" />
-                <element signature="method#GUI_SuspendAccount#0;class#GUI_BankSystem#0" />
-                <element signature="method#GUI_CloseAccount#0;class#GUI_BankSystem#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NewAccID.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Account_Current.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+              <folding>
+                <element signature="method#openCurrentAccount#0;class#Account_Current#0" />
               </folding>
             </state>
           </provider>
@@ -68,14 +151,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1581">
-              <caret line="199" column="70" selection-start-line="199" selection-start-column="70" selection-end-line="199" selection-end-column="70" />
+            <state relative-caret-position="17">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
               <folding>
-                <element signature="method#depositFunds#0;class#Account#0" />
+                <element signature="method#openAccount#0;class#Account#0" />
                 <element signature="method#clearFunds#0;class#Account#0" />
                 <element signature="method#withdrawFunds#0;class#Account#0" />
                 <element signature="method#suspendAccount#0;class#Account#0" />
-                <element signature="method#closeAccount#0;class#Account#0" />
                 <element signature="method#getAccIDForNewAcc#0;class#Account#0" />
                 <element signature="method#writeAccFinder#0;class#Account#0" />
                 <element signature="method#writeAcc#0;class#Account#0" />
@@ -83,21 +165,6 @@
                 <element signature="method#notice#0;class#Account#0" />
                 <element signature="method#accIDnPINVerify#0;class#Account#0" />
                 <element signature="method#toString#0;class#Account#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Customer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="114" column="60" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="78" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#isCreditSatisfactory#0;class#Customer#0" />
-                <element signature="method#isAgeUnder16#0;class#Customer#0" />
-                <element signature="method#getAge#0;class#Customer#0" />
               </folding>
             </state>
           </provider>
@@ -111,6 +178,17 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>txt</find>
+      <find>notice</find>
+      <find>invalid</find>
+      <find>double</find>
+      <find>Double</find>
+      <find>System.out</find>
+      <find>srcDirectoryPath</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -130,12 +208,15 @@
         <option value="$PROJECT_DIR$/src/File/tempAccounts.txt" />
         <option value="$PROJECT_DIR$/src/File/AccountFinder.txt" />
         <option value="$PROJECT_DIR$/src/File/Accounts.txt" />
-        <option value="$PROJECT_DIR$/src/Customer.java" />
-        <option value="$PROJECT_DIR$/src/GUI_BankSystem.java" />
         <option value="$PROJECT_DIR$/src/Account_Current.java" />
         <option value="$PROJECT_DIR$/src/Account_Junior.java" />
         <option value="$PROJECT_DIR$/src/Account_Saver.java" />
         <option value="$PROJECT_DIR$/Readme.txt" />
+        <option value="$PROJECT_DIR$/src/Accounts.txt" />
+        <option value="$PROJECT_DIR$/src/GUI_BankSystem.java" />
+        <option value="$USER_HOME$/Desktop/BankSystem/src/Customer.java" />
+        <option value="$USER_HOME$/Desktop/BankSystem/src/Account.java" />
+        <option value="$PROJECT_DIR$/src/Customer.java" />
         <option value="$PROJECT_DIR$/src/Account.java" />
       </list>
     </option>
@@ -159,6 +240,11 @@
               <item name="BankSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="BankSystem" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BankSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BankSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -175,16 +261,17 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/File" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/File" />
     </key>
   </component>
@@ -247,16 +334,21 @@
       <workItem from="1557132246720" duration="1390000" />
       <workItem from="1557136712071" duration="18000" />
       <workItem from="1557136754064" duration="3000" />
+      <workItem from="1557538308861" duration="877000" />
+      <workItem from="1557544698511" duration="13313000" />
+      <workItem from="1557560003739" duration="1085000" />
+      <workItem from="1557561980718" duration="3525000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91290000" />
+    <option name="totallyTimeSpent" value="110090000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17109375" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18174475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -264,8 +356,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.43768546" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.16818182" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.43561643" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39178082" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -274,8 +366,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32904148" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.19384615" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3288948" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.19178082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24933687" />
@@ -286,6 +378,37 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18174475" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.43561643" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1739726" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32904148" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3288948" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.19178082" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24933687" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -303,41 +426,10 @@
     <entry file="file://$PROJECT_DIR$/Readme" />
     <entry file="file://$PROJECT_DIR$/src/File/Accounts" />
     <entry file="file://$PROJECT_DIR$/src/File/CreditAgency" />
-    <entry file="file://$PROJECT_DIR$/src/File/NewAccID.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/File/tempAccounts.txt" />
-    <entry file="file://$PROJECT_DIR$/src/File/AccountFinder.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Math teacher/MathTeacher/MathTeacher.java" />
     <entry file="file://$PROJECT_DIR$/JavaDoc/index.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/File/CreditAgency.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/File/Accounts.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Account_Current.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Account_Junior.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -360,33 +452,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/jdk/internal/misc/Unsafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="2293" column="59" lean-forward="true" selection-start-line="2293" selection-start-column="59" selection-end-line="2293" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CreditAgency.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Accounts.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AccountFinder.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Account_Current.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+          <folding>
+            <element signature="method#openCurrentAccount#0;class#Account_Current#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NewAccID.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI_BankSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="272" column="35" selection-start-line="272" selection-start-column="35" selection-end-line="272" selection-end-column="35" />
+        <state relative-caret-position="293">
+          <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#GUI_BankSystem#0;class#GUI_BankSystem#0" />
+            <element signature="docComment;class#GUI_BankSystem#0" />
             <element signature="method#GUI_OpenAccount#0;class#GUI_BankSystem#0" />
             <element signature="method#GUI_DepositFunds#0;class#GUI_BankSystem#0" />
             <element signature="method#GUI_ClearFunds#0;class#GUI_BankSystem#0" />
-            <element signature="method#GUI_WithdrawFunds#0;class#GUI_BankSystem#0" />
-            <element signature="method#GUI_SuspendAccount#0;class#GUI_BankSystem#0" />
-            <element signature="method#GUI_CloseAccount#0;class#GUI_BankSystem#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/BankSystem/src/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/BankSystem/src/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
-          <caret line="199" column="70" selection-start-line="199" selection-start-column="70" selection-end-line="199" selection-end-column="70" />
+        <state relative-caret-position="17">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding>
-            <element signature="method#depositFunds#0;class#Account#0" />
+            <element signature="method#openAccount#0;class#Account#0" />
             <element signature="method#clearFunds#0;class#Account#0" />
             <element signature="method#withdrawFunds#0;class#Account#0" />
             <element signature="method#suspendAccount#0;class#Account#0" />
-            <element signature="method#closeAccount#0;class#Account#0" />
             <element signature="method#getAccIDForNewAcc#0;class#Account#0" />
             <element signature="method#writeAccFinder#0;class#Account#0" />
             <element signature="method#writeAcc#0;class#Account#0" />
@@ -400,11 +546,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="114" column="60" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="78" />
+        <state relative-caret-position="123">
+          <caret line="63" column="16" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#isCreditSatisfactory#0;class#Customer#0" />
             <element signature="method#isAgeUnder16#0;class#Customer#0" />
             <element signature="method#getAge#0;class#Customer#0" />
           </folding>

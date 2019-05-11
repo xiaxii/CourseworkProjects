@@ -10,12 +10,17 @@ import java.io.*;
  *     - accountStatus <br>
  *     - noticed <br>
  *
- * Details of all accounts are in file "BankSystem/src/File/Accounts.txt"
+ * Details of all accounts are in file "BankSystem/src/Accounts.txt"
  *
  * @author Xi Xia
  * @version 1.1
  */
 public class Account {
+
+    /**
+     * The sourceCode Directory Path
+     */
+    String srcDirectoryPath = "/Users/xiaxi/Documents/GitHub/CourseworkProjects/BankSystem/src/";
 
     /**
      * Define 3 types of accounts
@@ -54,6 +59,8 @@ public class Account {
      */
     protected boolean noticed = false;
 
+
+
     /* Following 6 Functions sre the main functions of this Bank System */
     /**
      * Function1. Open Account <br>
@@ -69,7 +76,7 @@ public class Account {
     }
 
     /**
-     * Deposit Funds
+     * Function2. Deposit Funds
      * @param providedAccID account ID from the customer's input
      * @param amount depositing amount from the customer's input
      * @param clearMode clearing mode from the customer's input
@@ -77,15 +84,15 @@ public class Account {
      */
     public boolean depositFunds(String providedAccID, double amount, String clearMode) {
         try {
-            String oldFilePathName = "src/File/Accounts.txt";
-            String tempFilePathName = "src/File/tempAccounts.txt";
+            String oldFilePathName = srcDirectoryPath+"Accounts.txt";
+            String tempFilePathName = srcDirectoryPath+"tempAccounts.txt";
             File in = new File(oldFilePathName);
             File out = new File(tempFilePathName);
 
             InputStreamReader reader = new InputStreamReader(new FileInputStream(in)); // 建立一个输入流对象reader
             BufferedReader bufferedReader = new BufferedReader(reader); // 建立一个对象，它把文件内容转成计算机能读懂的语言
             String readLine = bufferedReader.readLine();
-            System.out.println("read" + readLine);
+//            System.out.println("read" + readLine);
 
             while (readLine != null) {
                 BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(out, true));
@@ -98,7 +105,6 @@ public class Account {
                     System.out.println("Account found! " + providedAccID);
                     switch (clearMode) {
                     case "Fully cleared":
-                        System.out.println("ClearMode: " + clearMode);
                         double newBalance = Double.valueOf(accInfo[3]) + amount;
                         writeLine = accInfo[0] + "," + accInfo[1] + "," + accInfo[2] + ","
                                 + newBalance + "," + accInfo[4] + "," + accInfo[5] + ","
@@ -110,6 +116,7 @@ public class Account {
                         writeLine = accInfo[0] + "," + accInfo[1] + "," + accInfo[2] + ","
                                 + accInfo[3] + "," + accInfo[4] + "," + newClearing + ","
                                 + accInfo[6] + "," + accInfo[7] + "\r\n";// 拼接字符串\r\n即为换行
+                        System.out.println("writeline " + writeLine);
                         break;
                     default:
                         break;
@@ -136,21 +143,20 @@ public class Account {
     }
 
     /**
-     * Function2. Clear Funds
+     * Function3. Clear Funds
      * @param providedAccID account ID from the customer's input
      * @return whether the operation is successful
      */
     public boolean clearFunds(String providedAccID) {
         try {
-            String oldFilePathName = "src/File/Accounts.txt";
-            String tempFilePathName = "src/File/tempAccounts.txt";
+            String oldFilePathName = srcDirectoryPath+"Accounts.txt";
+            String tempFilePathName = srcDirectoryPath+"tempAccounts.txt";
             File in = new File(oldFilePathName);
             File out = new File(tempFilePathName);
 
             InputStreamReader reader = new InputStreamReader(new FileInputStream(in)); // 建立一个输入流对象reader
             BufferedReader bufferedReader = new BufferedReader(reader); // 建立一个对象，它把文件内容转成计算机能读懂的语言
             String readLine = bufferedReader.readLine();
-            System.out.println("read" + readLine);
 
             while (readLine != null) {
                 BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(out, true));
@@ -191,7 +197,7 @@ public class Account {
     }
 
     /**
-     * Function3. Withdraw Funds
+     * Function4. Withdraw Funds
      * A notice must be given before withdrawal
      * @param providedAccID account ID from the customer's input
      * @param amount withdrawing amount from the customer's input
@@ -200,8 +206,8 @@ public class Account {
     public boolean withdrawFunds(String providedAccID, double amount) {
         boolean isWithdrawn = false;
         try {
-            String oldFilePathName = "src/File/Accounts.txt";
-            String tempFilePathName = "src/File/tempAccounts.txt";
+            String oldFilePathName = srcDirectoryPath+"Accounts.txt";
+            String tempFilePathName = srcDirectoryPath+"tempAccounts.txt";
             File in = new File(oldFilePathName);
             File out = new File(tempFilePathName);
 
@@ -209,19 +215,17 @@ public class Account {
             BufferedReader bufferedReader = new BufferedReader(reader); // 建立一个对象，它把文件内容转成计算机能读懂的语言
             String readLine = bufferedReader.readLine();
             while (readLine != null) {
-                System.out.println("readline: "+readLine);
                 BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(out, true));
                 String writeLine = readLine + "\r\n";
 
                 String[] accInfo = readLine.split(",");//按英文逗号切割字符串
                 String readAccID = accInfo[0];
-                String notice = accInfo[7];
                 // the account exists and is active
                 if (readAccID.equals(providedAccID) ) {
                     System.out.println("Account found! " + providedAccID);
                     double balance = Double.valueOf(accInfo[3]);
-                    System.out.println("balance "+ balance+ " will withdraw "+amount);
                     String accountType = accInfo[1];
+                    String notice = accInfo[7];
                     switch (accountType) {
                     case "SAVER":
                         if (balance >= amount && notice.equals("true")) {
@@ -230,7 +234,9 @@ public class Account {
                                     + balance + "," + accInfo[4] + "," + accInfo[5] + ","
                                     + accInfo[6] + "," + "false\r\n";// 拼接字符串\r\n即为换行
                             isWithdrawn = true;
+                            System.out.println("writeline " + writeLine);
                         }
+                        break;
                     case "JUNIOR":
                         if (balance >= amount) {
                             balance -= amount;
@@ -238,6 +244,7 @@ public class Account {
                                     + balance + "," + accInfo[4] + "," + accInfo[5] + ","
                                     + accInfo[6] + "," + "false\r\n";// 拼接字符串\r\n即为换行
                             isWithdrawn = true;
+                            System.out.println("writeline " + writeLine);
                         }
                         break;
                     case "CURRENT":
@@ -248,13 +255,14 @@ public class Account {
                                     + balance + "," + accInfo[4] + "," + accInfo[5] + ","
                                     + accInfo[6] + "," + "false\r\n";// 拼接字符串\r\n即为换行
                             isWithdrawn = true;
+                            System.out.println("writeline " + writeLine);
                         }
                         break;
                     default:
+                        isWithdrawn = false;
                         break;
                     }
                 }
-                System.out.println("writeline: "+writeLine);
                 bufferedWriter.write(writeLine);
                 bufferedWriter.flush(); // 把缓存区内容压入文件
                 bufferedWriter.close(); // 最后记得关闭文件
@@ -273,21 +281,20 @@ public class Account {
     }
 
     /**
-     * Function4. Suspend Account
+     * Function5. Suspend Account
      * @param providedAccID account ID from the customer's input
      * @return whether the operation is successful
      */
     public boolean suspendAccount(String providedAccID) {
         try {
-            String oldFilePathName = "src/File/Accounts.txt";
-            String tempFilePathName = "src/File/tempAccounts.txt";
+            String oldFilePathName = srcDirectoryPath+"Accounts.txt";
+            String tempFilePathName = srcDirectoryPath+"tempAccounts.txt";
             File in = new File(oldFilePathName);
             File out = new File(tempFilePathName);
 
             InputStreamReader reader = new InputStreamReader(new FileInputStream(in)); // 建立一个输入流对象reader
             BufferedReader bufferedReader = new BufferedReader(reader); // 建立一个对象，它把文件内容转成计算机能读懂的语言
             String readLine = bufferedReader.readLine();
-            System.out.println("read" + readLine);
 
             while (readLine != null) {
                 BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(out, true));
@@ -324,21 +331,21 @@ public class Account {
     }
 
     /**
-     * Function5. Close Account
+     * Function6. Close Account
      * @param providedAccID account ID from the customer's input
      * @return whether the operation is successful
      */
     public boolean closeAccount(String providedAccID) {
+        boolean returnValue = false;
         try {
-            String oldFilePathName = "src/File/Accounts.txt";
-            String tempFilePathName = "src/File/tempAccounts.txt";
+            String oldFilePathName = srcDirectoryPath+"Accounts.txt";
+            String tempFilePathName = srcDirectoryPath+"tempAccounts.txt";
             File in = new File(oldFilePathName);
             File out = new File(tempFilePathName);
 
             InputStreamReader reader = new InputStreamReader(new FileInputStream(in)); // 建立一个输入流对象reader
             BufferedReader bufferedReader = new BufferedReader(reader); // 建立一个对象，它把文件内容转成计算机能读懂的语言
             String readLine = bufferedReader.readLine();
-            System.out.println("read" + readLine);
 
             while (readLine != null) {
                 BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(out, true));
@@ -353,6 +360,7 @@ public class Account {
                             + accInfo[3] + "," + accInfo[4] + "," + accInfo[5] + ","
                             +  "CLOSED" + "," + accInfo[7] + "\r\n";// 拼接字符串\r\n即为换行
                     System.out.println("writeline " + writeLine);
+                    returnValue = true;
                 } else {
                     writeLine = readLine + "\r\n";
                 }
@@ -371,18 +379,18 @@ public class Account {
 
             e.printStackTrace();
         }
-        return true;
+        return returnValue;
     }
 
 
     /**
-     * Function6. Provide an unique accID for a new opened account
+     * Provide an unique accID for a new opened account
      * @return an unique accID
      */
     public int getAccIDForNewAcc() {
         int AccID = 0;
         try {
-            String pathname = "src/File/NewAccID.txt";
+            String pathname = srcDirectoryPath+ "/NewAccID.txt";
             File file = new File(pathname);
             //read the new AccID
             InputStreamReader reader = new InputStreamReader(new FileInputStream(pathname)); // 建立一个输入流对象reader
@@ -394,7 +402,6 @@ public class Account {
             BufferedWriter out = new BufferedWriter(new FileWriter(file));
             String line;
             line = newAccID + "";
-            System.out.println(line);
             out.write(line);
             out.flush(); // 把缓存区内容压入文件
             out.close(); // 最后记得关闭文件
@@ -414,7 +421,7 @@ public class Account {
      */
     public void writeAccFinder(String customer_name, String customer_address, String customer_birthday, int accID) {
         try {
-            String pathname = "src/File/AccountFinder.txt";
+            String pathname = srcDirectoryPath + "AccountFinder.txt";
             File file = new File(pathname);
             BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(file, true));
             String line;
@@ -432,7 +439,7 @@ public class Account {
      */
     public void writeAcc() {
         try {
-            String pathname = "src/File/Accounts.txt";
+            String pathname = srcDirectoryPath + "Accounts.txt";
             File file = new File(pathname);
             BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(file, true));
             String line;
@@ -453,18 +460,15 @@ public class Account {
      */
     public boolean isAccActive(String providedAccID) {
         try {
-            String filePathName = "src/File/Accounts.txt";
+            String filePathName = srcDirectoryPath + "Accounts.txt";
             File filename = new File(filePathName);
             InputStreamReader reader = new InputStreamReader(new FileInputStream(filename)); // 建立一个输入流对象reader
             BufferedReader br = new BufferedReader(reader); // 建立一个对象，它把文件内容转成计算机能读懂的语言
             String line = br.readLine();
             while (line != null) {
                 String[] accInfo = line.split(",");//按英文逗号切割字符串
-                int readAccID = Integer.valueOf(accInfo[0]);
+                String readAccID = accInfo[0];
                 String readAccStatus = accInfo[6];
-                System.out.println("readAccID: " + readAccID + " providedAccID: " + providedAccID);
-                System.out.println("readAccStatus: " + readAccStatus);
-                System.out.println(accInfo[6].equals(AccountStatus.ACTIVE));
                 if (providedAccID.equals(readAccID) && accInfo[6].equals("ACTIVE")) {
                     br.close();
                     System.out.println("Account is active with accID" + providedAccID);
@@ -487,15 +491,14 @@ public class Account {
     public boolean notice(String providedAccID) {
         boolean isNoticed = false;
         try {
-            String oldFilePathName = "src/File/Accounts.txt";
-            String tempFilePathName = "src/File/tempAccounts.txt";
+            String oldFilePathName = srcDirectoryPath+ "Accounts.txt";
+            String tempFilePathName = srcDirectoryPath +"tempAccounts.txt";
             File in = new File(oldFilePathName);
             File out = new File(tempFilePathName);
 
             InputStreamReader reader = new InputStreamReader(new FileInputStream(in)); // 建立一个输入流对象reader
             BufferedReader bufferedReader = new BufferedReader(reader); // 建立一个对象，它把文件内容转成计算机能读懂的语言
             String readLine = bufferedReader.readLine();
-            System.out.println("read" + readLine);
 
             while (readLine != null) {
                 BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(out, true));
@@ -544,7 +547,7 @@ public class Account {
      */
     public boolean accIDnPINVerify(String providedAccID, String providedPIN) {
         try {
-            String filePathName = "src/File/Accounts.txt";
+            String filePathName = srcDirectoryPath + "Accounts.txt";
             File filename = new File(filePathName); // 要读取以上路径的文件
             if (!filename.exists()) {
                 System.out.println("can't find " + filePathName);
@@ -556,7 +559,7 @@ public class Account {
                 String[] accInfo = line.split(",");//按英文逗号切割字符串
                 if (providedAccID.equals(accInfo[0]) && providedPIN.equals(accInfo[2])) {
                     bufferedReader.close(); //验证通过，关闭文件
-                    System.out.println("Verified!");
+                    System.out.println("Verified PIN!");
                     return true;
                 }
                 line = bufferedReader.readLine(); // 一次读入一行数据
