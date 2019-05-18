@@ -25,7 +25,7 @@ public class Account_Current extends Account {
          */
         openAccount(birth);
         setType(Type.CURRENT);
-        this.setOverdraftLimit(2000);
+        this.setOverdraftLimit(1000);
         System.out.println(toString());
         return this.accID; //to be recorded in File "CreditAgency.txt"
     }
