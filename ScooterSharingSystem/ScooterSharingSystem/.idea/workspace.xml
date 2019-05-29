@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1bbb0ebd-b08c-4d49-b7a9-1987db0bbc17" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/UserControlTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Station.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/StationGUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-53">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="method#bulidGui#0;class#StationGUI#0" />
+                <element signature="class#Fail#0;class#StationGUI#0" />
+                <element signature="class#Return#0;class#StationGUI#0" />
+                <element signature="class#ReturnOperation#0;class#StationGUI#0" />
+                <element signature="method#run#0;class#Returninfo#0;class#StationGUI#0" />
+                <element signature="class#PickUpinfo#0;class#StationGUI#0" />
+                <element signature="class#PickupOperation#0;class#StationGUI#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HomeGUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="101" selection-start-line="101" selection-end-line="101" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/File/weeklyReport.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/File/stdInfo.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/StationControl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#getCurrentNum#0;class#StationControl#0" />
+                <element signature="method#readID#0;class#StationControl#0" />
+                <element signature="method#recordTime#0;class#StationControl#0" />
+                <element signature="method#calculateTime#0;class#StationControl#0" />
+                <element signature="method#modifyFileContent#0;class#StationControl#0" />
+                <element signature="method#record#0;class#StationControl#0" />
+                <element signature="method#recordFine#0;class#StationControl#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="UML Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>station</find>
+      <find>txt</find>
+      <find>report</find>
+      <find>1Us</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/UserOperate.java" />
+        <option value="$PROJECT_DIR$/src/StationOpp.java" />
+        <option value="$PROJECT_DIR$/src/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/Manage.java" />
+        <option value="$PROJECT_DIR$/ScooterSharingSystemUML.puml" />
+        <option value="$PROJECT_DIR$/src/ScooterSharingSystemUML.puml" />
+        <option value="$PROJECT_DIR$/src/src.plantuml" />
+        <option value="$PROJECT_DIR$/src/Home.java" />
+        <option value="$PROJECT_DIR$/src/ManageRegistration.java" />
+        <option value="$PROJECT_DIR$/src/ManageReport.java" />
+        <option value="$PROJECT_DIR$/src/ReportOfStation.java" />
+        <option value="$PROJECT_DIR$/src/ReportWeekly.java" />
+        <option value="$PROJECT_DIR$/src/StationControl.java" />
+        <option value="$PROJECT_DIR$/src/User.java" />
+        <option value="$PROJECT_DIR$/src/HomeGUI.java" />
+        <option value="$PROJECT_DIR$/src/StationGUI.java" />
+        <option value="$PROJECT_DIR$/src/Station.java" />
+        <option value="$PROJECT_DIR$/Test/UserTest.java" />
+        <option value="$USER_HOME$/Desktop/StationControlTest.java" />
+        <option value="$PROJECT_DIR$/Test/UserControlTest.java" />
+        <option value="$PROJECT_DIR$/src/UserControl.java" />
+        <option value="$PROJECT_DIR$/src/ManageGUI.java" />
+        <option value="$PROJECT_DIR$/src/test/UserControlTest.java" />
+        <option value="$PROJECT_DIR$/src/test/UserControlJUnit4Test.java" />
+        <option value="$PROJECT_DIR$/test/JUnitTest/UserControlTest.java" />
+        <option value="$PROJECT_DIR$/test/NormalTest/UserControlTest.java" />
+        <option value="$PROJECT_DIR$/test/UserControlTestTest.java" />
+        <option value="$PROJECT_DIR$/src/UserControlTest.java" />
+        <option value="$PROJECT_DIR$/test/UserTest.java" />
+        <option value="$PROJECT_DIR$/src/File/registers.txt" />
+        <option value="$PROJECT_DIR$/src/File/stdInfo.txt" />
+        <option value="$PROJECT_DIR$/src/StationControlTest.java" />
+        <option value="$PROJECT_DIR$/test/UserControlTest.java" />
+        <option value="$PROJECT_DIR$/src/ManagePayFine.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="277" />
+    <option name="y" value="23" />
+    <option name="width" value="1241" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ScooterSharingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScooterSharingSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScooterSharingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScooterSharingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScooterSharingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScooterSharingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="File" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="plugins.junitgenerator.application" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/Test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.HomeGUI">
+    <configuration name="HomeGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeGUI" />
+      <module name="ScooterSharingSystem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test in ScooterSharingSystem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ScooterSharingSystem" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/Test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControlTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ScooterSharingSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserControlTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControlTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ScooterSharingSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JUnitTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JUnitTest" />
+      <option name="MAIN_CLASS_NAME" value="JUnitTest.UserControlTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControlTest.testCheckRegisterInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ScooterSharingSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserControlTest" />
+      <option name="METHOD_NAME" value="testCheckRegisterInfo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HomeGUI" />
+        <item itemvalue="JUnit.UserControlTest.testCheckRegisterInfo" />
+        <item itemvalue="JUnit.UserControlTest (1)" />
+        <item itemvalue="JUnit.UserControlTest" />
+        <item itemvalue="JUnit.Test in ScooterSharingSystem" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1bbb0ebd-b08c-4d49-b7a9-1987db0bbc17" name="Default Changelist" comment="" />
+      <created>1558154256914</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558154256914</updated>
+      <workItem from="1558154259927" duration="91000" />
+      <workItem from="1558154353672" duration="8860000" />
+      <workItem from="1558205793802" duration="86000" />
+      <workItem from="1558205913599" duration="13807000" />
+      <workItem from="1558351305915" duration="364000" />
+      <workItem from="1558356159738" duration="2111000" />
+      <workItem from="1558510541579" duration="171000" />
+      <workItem from="1558528280824" duration="5355000" />
+      <workItem from="1558540257223" duration="4808000" />
+      <workItem from="1558570823382" duration="1348000" />
+      <workItem from="1558598380660" duration="3000" />
+      <workItem from="1558958902787" duration="1099000" />
+      <workItem from="1559050504961" duration="1848000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UserControlTest_testCheckRegisterInfo - 2019.05.23 at 08h 23m 32s.xml">
+      <configuration name="UserControlTest.testCheckRegisterInfo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControlTest_testCheckRegisterInfo - 2019.05.23 at 08h 24m 12s.xml">
+      <configuration name="UserControlTest.testCheckRegisterInfo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControlTest_testCheckRegisterInfo - 2019.05.23 at 08h 24m 18s.xml">
+      <configuration name="UserControlTest.testCheckRegisterInfo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControlTest_testCheckRegisterInfo - 2019.05.23 at 08h 26m 07s.xml">
+      <configuration name="UserControlTest.testCheckRegisterInfo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControlTest_testCheckRegisterInfo - 2019.05.23 at 08h 26m 31s.xml">
+      <configuration name="UserControlTest.testCheckRegisterInfo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControlTest_testCheckRegisterInfo - 2019.05.23 at 08h 26m 49s.xml">
+      <configuration name="UserControlTest.testCheckRegisterInfo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControlTest_testCheckRegisterInfo - 2019.05.23 at 08h 27m 03s.xml">
+      <configuration name="UserControlTest.testCheckRegisterInfo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControlTest_testCheckRegisterInfo - 2019.05.23 at 08h 28m 05s.xml">
+      <configuration name="UserControlTest.testCheckRegisterInfo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControlTest_testCheckRegisterInfo - 2019.05.23 at 08h 28m 21s.xml">
+      <configuration name="UserControlTest.testCheckRegisterInfo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControlTest_testCheckRegisterInfo - 2019.05.23 at 08h 31m 53s.xml">
+      <configuration name="UserControlTest.testCheckRegisterInfo" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="39951000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="40" y="23" width="1241" height="777" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20850709" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3270073" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19416058" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.329927" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="PlantUML" order="9" weight="0.39856374" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20850709" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3270073" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19416058" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.329927" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="PlantUML" order="9" weight="0.39856374" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ScooterSharingSystem$Test_in_ScooterSharingSystem.ic" NAME="Test in ScooterSharingSystem Coverage Results" MODIFIED="1558539908660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ScooterSharingSystem.plantuml" />
+    <entry file="file://$PROJECT_DIR$/ScooterSharingSystemUML.puml" />
+    <entry file="file://$PROJECT_DIR$/src/ScooterSharingSystemUML.puml" />
+    <entry file="file://$PROJECT_DIR$/ScooterSharingSystem/src.plantuml" />
+    <entry file="file://$PROJECT_DIR$/Scooter Sharing System/ScooterSharingSystem.plantuml" />
+    <entry file="file://$PROJECT_DIR$/ScooterSharingSystemUML" />
+    <entry file="file://$PROJECT_DIR$/src/Scooter Sharing System.plantuml" />
+    <entry file="file://$PROJECT_DIR$/src/src.plantuml" />
+    <entry file="uml://JAVA/File">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>File</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="488.0" y="340.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/File/numOfScooters.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Top-Level Package.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScooterSharingSystem.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/UserControlTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/ReportWeekly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="method#weeklyReportGUI#0;class#ReportWeekly#0" />
+            <element signature="method#actionPerformed#0;class#ReportWeekly#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReportOfStation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="method#stationreportGUI#0;class#ReportOfStation#0" />
+            <element signature="method#actionPerformed#0;class#ReportOfStation#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GeneralTest.java" />
+    <entry file="file://$PROJECT_DIR$/../test/java/{PACKAGE}/UserControlTest.java" />
+    <entry file="file://$PROJECT_DIR$/../../demo3.java" />
+    <entry file="file://$PROJECT_DIR$/src/ManageGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="method#manageGUI#0;class#ManageGUI#0" />
+            <element signature="method#actionPerformed#0;class#ManageGUI#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ManageRegistration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="method#registrationGUI#0;class#ManageRegistration#0" />
+            <element signature="method#actionPerformed#0;class#ManageRegistration#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/UserControlTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/Test/UserControlJUnit4Test.java" />
+    <entry file="file://$APPLICATION_HOME_DIR$/bin/Test/UserControlJUnit4Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/UserControlTest.java" />
+    <entry file="file://$PROJECT_DIR$/test/java/UserControlTest.java" />
+    <entry file="file://$PROJECT_DIR$/../JUnitTest/UserControlTest.java" />
+    <entry file="file://$PROJECT_DIR$/../test/UserControlTest.java" />
+    <entry file="file://$PROJECT_DIR$/../test/java/UserControlTest.java" />
+    <entry file="file://$PROJECT_DIR$/test/NormalTest/UserControlTest.java" />
+    <entry file="file://$PROJECT_DIR$/test/JUnitTest/UserControlTest.java" />
+    <entry file="file://$PROJECT_DIR$/test/UserControlTestTest.java" />
+    <entry file="file://$USER_HOME$/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/7668424fd49bfd13885c83bdda3726ad/Message/MessageTemp/aa4eccf68d54f7ec653cdf4922e6f7ac/File/Scooter_sharing_system/src/scooter_sharing_system/test/UserControlTest.java" />
+    <entry file="file://$PROJECT_DIR$/test/UserTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="method#User#1;class#User#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/7668424fd49bfd13885c83bdda3726ad/Message/MessageTemp/aa4eccf68d54f7ec653cdf4922e6f7ac/File/Scooter_sharing_system/src/scooter_sharing_system/test/UserTest.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/junit/framework/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/junit/framework/TestCase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+          <folding>
+            <element signature="e#3026#3027#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StationControlTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UserControlTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UserControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3040">
+          <caret line="202" column="37" selection-start-line="202" selection-start-column="37" selection-end-line="202" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/File/registers.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">User</node>
+            <node x="" y="">ManageGUI</node>
+            <node x="" y="">ReportWeekly</node>
+            <node x="" y="">ManagePayFine</node>
+            <node x="" y="">UserControl</node>
+            <node x="" y="">UserControlTest</node>
+            <node x="" y="">ReportOfStation</node>
+            <node x="" y="">ManageRegistration</node>
+            <node x="" y="">StationControl</node>
+            <node x="" y="">StationControlTest</node>
+            <node x="" y="">HomeGUI</node>
+            <node x="" y="">ManageReport</node>
+            <node x="" y="">Station</node>
+            <node x="" y="">StationGUI</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.5766066199397527" x="806.0" y="666.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>Production</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ManagePayFine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="method#payGUI#0;class#ManagePayFine#0" />
+            <element signature="method#actionPerformed#0;class#ManagePayFine#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ManageReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="method#reportGUI#0;class#ManageReport#0" />
+            <element signature="method#actionPerformed#0;class#ManageReport#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Station.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StationControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getCurrentNum#0;class#StationControl#0" />
+            <element signature="method#readID#0;class#StationControl#0" />
+            <element signature="method#recordTime#0;class#StationControl#0" />
+            <element signature="method#calculateTime#0;class#StationControl#0" />
+            <element signature="method#modifyFileContent#0;class#StationControl#0" />
+            <element signature="method#record#0;class#StationControl#0" />
+            <element signature="method#recordFine#0;class#StationControl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/File/weeklyReport.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/File/stdInfo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/UserControlTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StationGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="method#bulidGui#0;class#StationGUI#0" />
+            <element signature="class#Fail#0;class#StationGUI#0" />
+            <element signature="class#Return#0;class#StationGUI#0" />
+            <element signature="class#ReturnOperation#0;class#StationGUI#0" />
+            <element signature="method#run#0;class#Returninfo#0;class#StationGUI#0" />
+            <element signature="class#PickUpinfo#0;class#StationGUI#0" />
+            <element signature="class#PickupOperation#0;class#StationGUI#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HomeGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ScooterSharingSystem</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
