@@ -24,6 +24,10 @@ public class StationGUI {
     JButton[] button = new JButton[10];
     JTextField textFieldID = new JTextField();
 
+    /**
+     * Constructor
+     * @param name A or B or C
+     */
     StationGUI(String name) {
         stationNameAll = name;
     }

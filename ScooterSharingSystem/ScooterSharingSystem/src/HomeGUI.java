@@ -1,6 +1,7 @@
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.swing.JButton;
@@ -20,7 +21,7 @@ import javax.swing.JLabel;
 public class HomeGUI {
 
 	JFrame frame = new JFrame();
-	public List<StationGUI> stations ;
+	List stationList =new ArrayList();
 	public ManageGUI manage;
 
 	public static void main(String[] args){
@@ -99,7 +100,7 @@ public class HomeGUI {
 			//	frame.dispose();
 			StationGUI stationA = new StationGUI("A");
 			stationA.bulidGui();
-			stations.add(stationA);
+			stationList.add(stationA);
 		}
 
 	}
@@ -112,7 +113,7 @@ public class HomeGUI {
 			//	frame.dispose();
 			StationGUI stationB = new StationGUI("B");
 			stationB.bulidGui();
-			stations.add(stationB);
+			stationList.add(stationB);
 		}
 
 	}
@@ -125,7 +126,7 @@ public class HomeGUI {
 			//frame.dispose();
 			StationGUI stationC = new StationGUI("C");
 			stationC.bulidGui();
-			stations.add(stationC);
+			stationList.add(stationC);
 		}
 
 	}
