@@ -14,7 +14,7 @@ import java.io.PrintWriter;
  */
 public class UserControl {
 
-    public static String pathname_parent = "src/File/";
+    public static String pathname_parent = "/Users/xiaxi/Desktop/Software_group101/src/File/";
 
     /**
      * Check Registration

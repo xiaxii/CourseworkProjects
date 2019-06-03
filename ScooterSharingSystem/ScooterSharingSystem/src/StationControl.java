@@ -9,6 +9,7 @@ import java.util.Date;
  * @author SE Group 101 (Taizhou QING, Haoran CUI, Jiayi PANG, Xi XIA, Yuanrong SHAO, Xi CUI)
  */
 public class StationControl {
+    public static String parentPath = "/Users/xiaxi/Desktop/Software_group101/src/File/";
 
     /**
      * Get the number of scooters parking in the thisStation
@@ -18,7 +19,7 @@ public class StationControl {
     public static int getCurrentNum(String station) {
 
         try {
-            String numberpathname = "src/File/numOfScooters.txt";
+            String numberpathname = parentPath +  "numOfScooters.txt";
             File filename = new File(numberpathname);
             InputStreamReader reader = new InputStreamReader(
                     new FileInputStream(filename));
@@ -62,7 +63,7 @@ public class StationControl {
         if (flag == 1) {
             String data = recordTime();
             try {
-                String pathname = "src/File/" + pathName + ".txt";
+                String pathname = parentPath  + pathName + ".txt";
                 File file = new File(pathname);
                 if (!file.exists()) {
                     file.createNewFile();
@@ -81,7 +82,7 @@ public class StationControl {
         } else {
             String line = "";
             try {
-                File file = new File("src/File/" + pathName + ".txt");
+                File file = new File(parentPath + pathName + ".txt");
                 FileReader fileReader = new FileReader(file);
                 BufferedReader bufferedReader = new BufferedReader(fileReader);
                 line = bufferedReader.readLine();
@@ -107,7 +108,7 @@ public class StationControl {
         if (calculateTime(userID)) {
             recordFine(userID);
         }
-        File file = new File("src/File/" + userID + ".txt");
+        File file = new File( parentPath +  userID + ".txt");
         file.delete();
 
     }
@@ -121,7 +122,7 @@ public class StationControl {
     public static int readID(String ID, int flag) {
         try {
 
-            String pathname = "src/File/registers.txt";
+            String pathname = parentPath +  "registers.txt";
             File filename = new File(pathname);
             InputStreamReader reader = new InputStreamReader(
                     new FileInputStream(filename));
@@ -133,7 +134,7 @@ public class StationControl {
                         br.close();
                         return 3;
                     }
-                    File testExist = new File("src/File/" + ID + ".txt");
+                    File testExist = new File(parentPath +   ID + ".txt");
                     if (testExist.exists() && flag == 1) {
                         br.close();
                         return 4;
@@ -149,7 +150,7 @@ public class StationControl {
             }
             br.close();
 
-            pathname = "src/File/stdInfo.txt";
+            pathname = parentPath +  "stdInfo.txt";
             File file = new File(pathname);
             InputStreamReader reader1 = new InputStreamReader(
                     new FileInputStream(file)
@@ -188,7 +189,7 @@ public class StationControl {
      */
     public static boolean calculateTime(String userID) {
         try {
-            String pathname = "src/File/" + userID + ".txt";
+            String pathname = parentPath +   userID + ".txt";
             File filename = new File(pathname);
             InputStreamReader reader = new InputStreamReader(
                     new FileInputStream(filename));
@@ -201,7 +202,7 @@ public class StationControl {
             long to3 = toDate3.getTime();
             int minutes = (int) ((to3 - from3) / (60 * 1000));
             br.close();
-            String pathname1 = "src/File/weeklyReport.txt";
+            String pathname1 = parentPath +  "weeklyReport.txt";
             File filename1 = new File(pathname1);
             InputStreamReader reader1 = new InputStreamReader(
                     new FileInputStream(filename1));
@@ -240,13 +241,13 @@ public class StationControl {
      * @param newStr the new data
      */
     public static void modifyFileContent(String station, String oldStr, String newStr) {
-        String path = "src/File/numOfScooters.txt";
+        String path = parentPath +  "numOfScooters.txt";
         File file = new File(path);
         try {
             BufferedReader br = new BufferedReader(
                     new InputStreamReader(
                             new FileInputStream(file)));
-            File newFile = new File("src/newFile");
+            File newFile = new File(parentPath +  "newFile");
             if (!newFile.exists()) {
                 newFile.createNewFile();
             }
@@ -281,7 +282,7 @@ public class StationControl {
     public static void record(String ID, String PTime, String RTime) {
         FileOutputStream out = null;
         try {
-            File file = new File("src/File/weeklyReport.txt");
+            File file = new File(parentPath +  "weeklyReport.txt");
             if (!file.exists()) {
                 file.createNewFile();
             }
@@ -317,7 +318,7 @@ public class StationControl {
     public static void recordFine(String ID) {
         PrintWriter pw = null;
         try {
-            File fileText = new File("src/File/registers.txt");
+            File fileText = new File(parentPath +  "registers.txt");
             BufferedReader br = null;
             StringBuffer buff = new StringBuffer();
             br = new BufferedReader(new FileReader(fileText));
