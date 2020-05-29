@@ -1,7 +1,8 @@
 # CourseworkProjects
 
 ## 1. MathTeacher project @JAVA
-2018 Spring - Intro JAVA programming
+2018 Spring - Intro JAVA programming (individual)
+![Software preview](https://raw.githubusercontent.com/xiaxii/CourseworkProjects/master/MathTeacher/Screenshot.png)
 
 ## 2. ScooterShringSystem @JAVA
 2019 Spring - Software Engineering (group)
@@ -23,6 +24,7 @@ Java Class Diagram
 
 ## 3. BankSystem Project @JAVA
 2019 Spring - Software Engineering (individual)
+![Software preview](https://raw.githubusercontent.com/xiaxii/CourseworkProjects/master/BankSystem/Screenshot.png)
 ### src 
 source code
 ### User manual.pdf
