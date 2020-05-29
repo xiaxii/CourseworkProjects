@@ -24,7 +24,6 @@ Java Class Diagram
 
 ## 3. BankSystem Project @JAVA
 2019 Spring - Software Engineering (individual)
-![Software preview](https://raw.githubusercontent.com/xiaxii/CourseworkProjects/master/BankSystem/Screenshot.png)
 ### src 
 source code
 ### User manual.pdf
