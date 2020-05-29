@@ -3,19 +3,9 @@
 ## 1. MathTeacher project @JAVA
 2018 Spring - Intro JAVA programming
 
-## 2. BankSystem Project @JAVA
-2019 Spring - Software Engineering (individual)
-### src 
-source code
-### User manual.pdf
-user manual
-### JavaDoc
-JavaDoc
-### ProductBacklog.xlsx
-product backlog
-
-## 3. ScooterShringSystem @JAVA
+## 2. ScooterShringSystem @JAVA
 2019 Spring - Software Engineering (group)
+![Software preview](https://raw.githubusercontent.com/xiaxii/CourseworkProjects/master/ScooterSharingSystem/Screenshot.png)
 ### ScooterSharingSystem/src 
 1. source code
 2. test code (according to test case)
@@ -29,3 +19,15 @@ product backlog
 final report about Agile software engineering
 ### UML-A3.pdf
 Java Class Diagram
+
+
+## 3. BankSystem Project @JAVA
+2019 Spring - Software Engineering (individual)
+### src 
+source code
+### User manual.pdf
+user manual
+### JavaDoc
+JavaDoc
+### ProductBacklog.xlsx
+product backlog
