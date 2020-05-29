@@ -1,3 +1,0 @@
-Peter,London,1993-02-23,false
-Xi,Beijing,1998-08-09,true
-Mary,New York,2008-10-02,true
