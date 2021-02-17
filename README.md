@@ -4,7 +4,7 @@
 2018 Spring - Intro JAVA programming (individual)
 ![Software preview](https://raw.githubusercontent.com/xiaxii/CourseworkProjects/master/MathTeacher/Screenshot.png)
 
-## 2. ScooterShringSystem @JAVA
+## 2. ScooterSharingSystem @JAVA
 2019 Spring - Software Engineering (group)
 ![Software preview](https://raw.githubusercontent.com/xiaxii/CourseworkProjects/master/ScooterSharingSystem/Screenshot.png)
 ### ScooterSharingSystem/src 
